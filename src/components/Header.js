@@ -1,0 +1,21 @@
+import { Link } from "react-router-dom";
+
+const Header=()=>{
+   return(
+   <div className="header">
+        <div className="logo-section">
+            <img className="logo" src="data:image/png;base64,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" alt="logo-image"></img>
+        </div>
+        <div className="nav-list">
+            <ul className="nav-items">
+                <li><Link to="/">Home</Link></li>
+                <li><Link to="/about">About</Link></li>
+                <li><Link to="/contact">contact</Link></li>
+                <li>cart</li>
+            </ul>
+        </div>
+    </div>
+    );
+}
+
+export default Header;

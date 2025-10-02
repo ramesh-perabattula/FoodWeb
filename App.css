@@ -1,0 +1,35 @@
+.header{
+    display:flex;
+    justify-content: space-between;
+    padding: 10px;
+    border:black;
+    border-style: solid;
+}
+
+.logo{
+    width: 70px;
+    border-radius: 100px;
+}
+
+.nav-list{
+    padding: 10px;
+}
+.nav-items{
+    display: flex;
+    list-style-type: none;
+}
+
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card{
+    border:black solid 1px;
+    padding: 10px;
+    width: 180px;
+    height: 220px;
+}
+
+.search-container{
+    display: flex;
+}
